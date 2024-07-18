@@ -1,0 +1,45 @@
+.profile {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+  color: #ff4757;
+  margin-bottom: 20px;
+}
+
+.profile form div {
+  margin-bottom: 15px;
+}
+
+.profile label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.profile input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile button[type="button"] {
+  background-color: #ccc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.profile button[type="submit"] {
+  background-color: #ff4757;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}

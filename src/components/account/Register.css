@@ -1,0 +1,87 @@
+/* Register.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .register-image img {
+    margin-left: 25%;
+    width: 49%;
+    height: auto;
+  }
+  
+  .register-form {
+    max-width: 400px;
+    margin-left: 10%;
+  }
+  
+  .register-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .register-form .form-group {
+    font-size: large;
+    margin-bottom: 15px;
+  }
+  
+  .register-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .register-form .form-group input {
+    width: 120%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-form button {
+    width: 130%;
+    padding: 10px;
+    background-color: #337ab7;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .register-form button:hover {
+    background-color: #286090;
+  }
+  
+  .register-form .google-signup {
+    width: 130%;
+    padding: 10px;
+    background-color: #dd4b39;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-form .google-signup:hover {
+    background-color: #d14836;
+  }
+
+  .login-link {
+    display: block;
+    text-align: right;
+    /* text-decoration: none; */
+    margin-top: 23%;
+    margin-left: 18%;
+    margin-bottom: 0;
+  }
+  .login {
+    color: #d9534f;
+  }
+
+  .login:hover {
+    text-decoration: underline;
+  }
+  

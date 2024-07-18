@@ -1,0 +1,144 @@
+/* FlashSales.css */
+.flash-sales {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flash-sales h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.products {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    flex: 0 0 auto;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.original-price {
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.discount {
+    font-size: 1rem;
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating span {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: linear-gradient(to right, #0056b3, #003c7a);
+}
+
+.view-all {
+    display: block;
+    width: 300px;
+    height: 50px;
+    font-size: large;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.view-all:hover {
+    background: linear-gradient(to right, #0056b3, #003c7a);
+}

@@ -1,0 +1,44 @@
+/* Sidebar.css */
+.sidebar {
+    width: 350px;
+    padding: 20px;
+    background: linear-gradient(145deg, #e0f7ff, #ffffff);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 12px 20px;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #e0f7ff, #ffffff);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: large;
+}
+
+.sidebar ul li a:hover {
+    background: linear-gradient(145deg, #d0efff, #ffffff);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.8);
+    transform: translateY(-3px);
+}
+
+.sidebar ul li a:active {
+    background: linear-gradient(145deg, #b0e0ff, #d0efff);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, 0.7);
+}

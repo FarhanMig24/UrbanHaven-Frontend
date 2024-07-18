@@ -1,0 +1,127 @@
+.my-account {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #dee2e6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 1.5em;
+  color: #007bff;
+  margin-bottom: 1em;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  background: #e9ecef;
+}
+
+.sidebar ul li.active {
+  background: #007bff;
+  color: #fff;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+}
+
+.profileicon
+{
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  height: 59vh;
+  overflow: scroll;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+form button[type="submit"] {
+  background: #007bff;
+  color: #fff;
+}
+
+form button[type="button"] {
+  background: #6c757d;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #f8f9fa;
+}
+
+table tr:nth-child(even) {
+  background: #f8f9fa;
+}

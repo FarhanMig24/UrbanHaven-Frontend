@@ -1,0 +1,59 @@
+/* src/components/LandingPage.css */
+
+.landing-container {
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-title {
+  font-size: 6rem;
+  position: relative;
+  z-index: 10;
+  /* backdrop-filter: blur(100px); */
+  user-select: none;
+  display: block;
+  margin: 0;
+  animation: glow 5s infinite;
+}
+
+@keyframes glow {
+  0%, 90%, 100% {
+    opacity: 0;
+    color: #0906b4; /* Initial color */
+  }
+  10%, 80% {
+    opacity: 1;
+    color: #1e90ff; /* Final color */
+  }
+}
+
+.glow-letter {
+  font-size: 5rem; /* Adjust size as needed */
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.shining-text {
+  font-size: 2rem; 
+  animation: shine 4s infinite linear;
+  user-select: none;
+}
+
+@keyframes shine {
+  0% {
+    color: #fff; /* Initial color */
+  }
+  50% {
+    color: rgb(224, 224, 95); /* Shining color */
+  }
+  100% {
+    color: #fff; /* Back to initial color */
+  }
+}
